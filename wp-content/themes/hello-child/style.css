@@ -3,3 +3,22 @@ Theme Name: Hello Child
 Template: hello-elementor
 Version: 1.0
 */
+
+.elementor-posts.elementor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.elementor-grid-item-inline {
+    display: flex;
+    flex: 1 1 calc(20% - 16px);
+    min-width: 200px;
+}
+
+.elementor-heading-title {
+   
+    margin-bottom: 50px;
+    text-transform: capitalize;
+   
+}
